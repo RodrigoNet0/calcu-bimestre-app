@@ -15,7 +15,7 @@ const htmlTemplate = `
   <button class="myBtn">Calcular Total</button>
 </div>
 <div class="footer">
-  <h5 class="name-p">Desenvolvido por <a href="https://www.instagram.com/rodrigo.neto/">Rodrigo Neto</a></h5>
+  <h5 class="name-p">Desenvolvido por <a href="https://www.instagram.com/rodrigo.neto/">Rodrigo Neto ©</a></h5>
   <ul>
     <li><a href="https://www.instagram.com/rodrigo.neto/"><i class="bi bi-instagram"></a></i></li>
     <li><a href="https://github.com/RodrigoNet0"><i class="bi bi-github"></a></i></li>

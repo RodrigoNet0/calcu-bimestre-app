@@ -8,13 +8,13 @@ body {
   width: 80%;
   margin: 50px auto;
   padding: 20px;
-  background-color: #2980b9; /* azul mais escuro */
+  background-color: #2980b9; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-y: auto; /* Adiciona rolagem vertical */
+  overflow-y: auto; 
 }
 
 .container label {
@@ -32,30 +32,30 @@ body {
 
 .container input[type="number"]::placeholder,
 .container input[type="text"]::placeholder {
-  color: #ddd; /* cinza claro */
+  color: #ddd; 
 }
 
 .container .myBtn {
   width: 100%;
   padding: 10px;
-  background-color: #1abc9c; /* verde */
-  color: #fff; /* branco */
+  background-color: #1abc9c; 
+  color: #fff; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .container .myBtn:hover {
-  background-color: #16a085; /* verde mais escuro ao passar o mouse */
+  background-color: #16a085; 
 }
 
 .footer {
   text-align: center;
   width: 100%;
-  background-color: #2980b9; 
+ 
   padding: 5px 0; 
-  color: #fff; /* Branco */
- position: fixed;
+  color: #fff; 
+ 
   bottom: 0;
 }
 
@@ -68,6 +68,10 @@ body {
 .footer ul li {
   display: inline-block;
   margin: 0 5px;
+}
+a{
+  color: white;
+  text-decoration: none;
 }
 
 .footer ul li i {
