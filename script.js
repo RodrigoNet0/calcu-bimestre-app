@@ -1,15 +1,15 @@
 const htmlTemplate = `
 <div class="container">
   <label>Bimestre 1:</label>
-  <input type="number" placeholder="Nota do bimestre 1" class="nota"/><br>
+  <input type="number" placeholder="Nota do bimestre 1" class="nota" required""/><br>
   <label>Bimestre 2:</label>
-  <input type="number" placeholder="Nota do bimestre 2" class="nota"/><br>
+  <input type="number" placeholder="Nota do bimestre 2" class="nota" required/><br>
   <label>Bimestre 3:</label>
-  <input type="number" placeholder="Nota do bimestre 3" class="nota"/><br>
+  <input type="number" placeholder="Nota do bimestre 3" class="nota" required/><br>
   <label>Bimestre 4:</label>
-  <input type="number" placeholder="Nota do bimestre 4" class="nota"/><br>
+  <input type="number" placeholder="Nota do bimestre 4" class="nota" required/><br>
   <label>Pontos de Trabalho:</label>
-  <input type="number" placeholder="Pontos de trabalho" class="pontos"/><br>
+  <input type="number" placeholder="Pontos de trabalho" class="pontos" required/><br>
   <label>Total:</label>
   <input type="text" class="total" readonly/><br>
   <button class="myBtn">Calcular Total</button>
