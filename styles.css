@@ -52,10 +52,10 @@ body {
 .footer {
   text-align: center;
   width: 100%;
-  background-color: #2980b9; /* Azul mais escuro */
-  padding: 5px 0; /* Reduzindo o preenchimento superior e inferior para 5px */
+  background-color: #2980b9; 
+  padding: 5px 0; 
   color: #fff; /* Branco */
- 
+ position: fixed;
   bottom: 0;
 }
 
@@ -84,6 +84,6 @@ body {
 @media only screen and (min-width: 992px) {
   .container {
     width: 40%;
-    overflow-y: hidden; /* Remove rolagem vertical */
+    overflow-y: hidden; 
   }
 }
