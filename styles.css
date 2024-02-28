@@ -5,16 +5,19 @@ body {
 }
 
 .container {
-  width: 300px;
+  width: 80%;
   margin: 50px auto;
   padding: 20px;
   background-color: #2980b9; /* azul mais escuro */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto; /* Adiciona rolagem vertical */
 }
 
 .container label {
-  display: block;
   margin-bottom: 5px;
 }
 
@@ -44,4 +47,43 @@ body {
 
 .container .myBtn:hover {
   background-color: #16a085; /* verde mais escuro ao passar o mouse */
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  background-color: #2980b9; /* Azul mais escuro */
+  padding: 5px 0; /* Reduzindo o preenchimento superior e inferior para 5px */
+  color: #fff; /* Branco */
+ 
+  bottom: 0;
+}
+
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.footer ul li i {
+  font-size: 24px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 40%;
+    overflow-y: hidden; /* Remove rolagem vertical */
+  }
 }
